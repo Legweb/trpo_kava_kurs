@@ -1,0 +1,57 @@
+﻿<Window x:Class="Kava.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto">
+  
+            </RowDefinition>
+            <RowDefinition Height="auto">
+
+            </RowDefinition>
+            <RowDefinition Height="2*">
+
+            </RowDefinition>
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+        <TextBlock Text="Курсова робота" FontSize="17" HorizontalAlignment="Center" Margin="10"></TextBlock>
+        <TextBlock Text="Курсова робота" FontSize="24" HorizontalAlignment="Center" Margin="10"></TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <ListBox Name="ListBoxTables" >
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"></StackPanel>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Padding" Value="5"></Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Ellipse Fill="Aqua" Width="100" Height="100" Margin="5"></Ellipse>
+                            <TextBlock Text="{Binding Name}" Margin="27,32,22,62" Name="Customer"></TextBlock>
+                            <ProgressBar  Value="{Binding Progress}" Margin="19,64,22,27" Name="Progres_drink"></ProgressBar>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            
+            </ListBox>
+
+        </StackPanel>
+        <ListBox Name="ListBoxQueue"  Grid.Row="2" HorizontalAlignment="Center" >
+           
+        </ListBox>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal">
+            <Button   Height="40" Width="100" Content="Start" Click="Button_Click" />
+            <Button Width="100" Content="Stop" Click="Button_Click_1"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>

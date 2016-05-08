@@ -1,0 +1,12 @@
+C:\KN\КурсакТРПО\Kava\Kava\bin\Release\Kava.exe
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\ResolveAssemblyReference.cache
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\MainWindow.baml
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\MainWindow.g.cs
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\App.g.cs
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\Kava_MarkupCompile.cache
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\Kava.g.resources
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\Kava.Properties.Resources.resources
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\GenerateResource.read.1.tlog
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\GenerateResource.write.1.tlog
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\Kava.exe
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Release\Kava.pdb
