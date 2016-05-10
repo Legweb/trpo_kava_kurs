@@ -1,0 +1,63 @@
+C:\KN\КурсакТРПО\Kava\Kava\bin\Debug\Kava.exe
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\MainWindow.baml
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\MainWindow.g.cs
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\App.g.cs
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava_MarkupCompile.cache
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.g.resources
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.Properties.Resources.resources
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.exe
+C:\KN\КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.pdb
+C:\KN\КурсакТРПО\Kava\Kava\bin\Debug\Kava.pdb
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.exe
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.pdb
+C:\KN\Копия КурсакТРПО\Kava\Kava\bin\Debug\Kava.exe
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\MainWindow.baml
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\MainWindow.g.cs
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\App.g.cs
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava_MarkupCompile.cache
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.g.resources
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.Properties.Resources.resources
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\KN\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.exe
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.pdb
+H:\Копия КурсакТРПО\Kava\Kava\bin\Debug\Kava.exe
+H:\Копия КурсакТРПО\Kava\Kava\bin\Debug\Kava.pdb
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\MainWindow.baml
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\MainWindow.g.cs
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\App.g.cs
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava_MarkupCompile.cache
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.g.resources
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\Kava.Properties.Resources.resources
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Копия КурсакТРПО\Kava\Kava\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\Kava.exe
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\Kava.pdb
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\bin\Debug\Kava.exe
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\bin\Debug\Kava.pdb
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\Kava.csprojResolveAssemblyReference.cache
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\MainWindow.baml
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\MainWindow.g.cs
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\App.g.cs
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\Kava_MarkupCompile.cache
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\Kava.g.resources
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\Kava.Properties.Resources.resources
+D:\Work\CourseWork\TRIPO\Kava\Kava\Kava\obj\x86\Debug\Kava.csproj.GenerateResource.Cache
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\Kava.exe
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\Kava.pdb
+H:\kav\Kava\Kava\Kava\Kava\bin\Debug\Kava.exe
+H:\kav\Kava\Kava\Kava\Kava\bin\Debug\Kava.pdb
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\MainWindow.baml
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\MainWindow.g.cs
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\App.g.cs
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\Kava_MarkupCompile.cache
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\Kava.g.resources
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\Kava.Properties.Resources.resources
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\kav\Kava\Kava\Kava\Kava\obj\x86\Debug\GenerateResource.write.1.tlog
