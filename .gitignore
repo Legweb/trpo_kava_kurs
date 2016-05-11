@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Coffee/Kava/bin/
+/Coffee/Kava/obj/
+
+/Coffee/Kava.2/bin/
+/Coffee/Kava.2/obj/
+
+*.suo
