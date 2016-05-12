@@ -12,7 +12,7 @@ namespace Kava._2
             Tables = new Table[Constants.tablesCount];
             for (var i = 0; i < Tables.Length; i++)
             {
-                Tables[i] = new Table($"столик №{i + 1}");
+                Tables[i] = new Table(string.Format("столик №{0}", i + 1));
             }
         }
     }

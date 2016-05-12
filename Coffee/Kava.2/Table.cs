@@ -15,7 +15,10 @@ namespace Kava._2
             tableReleasEvent = new Mutex();
         }
 
-        public WaitHandle TableHandle => tableReleasEvent;
+        public WaitHandle TableHandle
+        {
+            get { return tableReleasEvent; }
+        }
 
         public string Name { get; }
 

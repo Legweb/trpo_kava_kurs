@@ -14,7 +14,7 @@ namespace Kava._2
         {
             this.caffe = caffe;
             workerThread = new Thread(WorkerProc);
-            Name = $"{App.GetRandomName()}, {App.RandomizerNext(18, 65)}";
+            Name = string.Format("{0}, {1}", App.GetRandomName(), App.RandomizerNext(18, 65));
         }
 
         public string Name { get; }
