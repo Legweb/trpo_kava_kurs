@@ -46,7 +46,10 @@ namespace Kava._2
             var args = new NotifyCollectionChangedEventArgs(action, new List<T> {item}, index);
             Application.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(() =>
             {
-                CollectionChanged?.Invoke(this, args);
+                if (CollectionChanged != null)
+                {
+                    CollectionChanged(this, args);
+                }
             }));
         }
     }

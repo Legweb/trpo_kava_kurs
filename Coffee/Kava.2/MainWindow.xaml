@@ -5,6 +5,7 @@
         Title="Caffee" Height="350" Width="525">
     <Window.Resources>
         <_2:ValueToVisibilityConverter x:Key="ValueToVisibilityConverter"/>
+        <_2:TimespanToStringConverter x:Key="TimespanToStringConverter"/>
         <DataTemplate x:Key="visitorTemplate" DataType="_2:Visitor">
             <Border Margin="10" BorderBrush="Black" BorderThickness="1" Background="LightGray" CornerRadius="10">
                 <TextBlock Text="{Binding Path=Name}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
@@ -50,6 +51,7 @@
                         </Grid.RowDefinitions>
                         <Ellipse Grid.RowSpan="3" Width="150" Height="150" Stroke="Brown" StrokeThickness="3" Fill="SaddleBrown"/>
                         <TextBlock Grid.Row="0" Text="{Binding Path=Name}" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="1" Text="{Binding Path=TimeLeft, Converter={StaticResource TimespanToStringConverter}}" HorizontalAlignment="Center" Foreground="White"/>
                         <ContentControl Grid.Row="2" Content="{Binding Path=CurrentVisitor}" ContentTemplate="{StaticResource visitorTemplate}" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="{Binding Path=CurrentVisitor, Converter={StaticResource ValueToVisibilityConverter}}"/>
                     </Grid>
                 </DataTemplate>

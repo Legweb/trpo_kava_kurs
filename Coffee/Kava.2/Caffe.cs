@@ -2,9 +2,9 @@ namespace Kava._2
 {
     public class Caffe
     {
-        public ObservableQueue<Visitor> VisitorsQueue { get; }
+        public ObservableQueue<Visitor> VisitorsQueue { get; private set; }
 
-        public Table[] Tables { get; }
+        public Table[] Tables { get; private set; }
 
         public Caffe()
         {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Windows;
+using System.Windows.Threading;
 
 namespace Kava._2
 {
@@ -10,12 +11,33 @@ namespace Kava._2
 
         private Thread visitorsGenerateThread;
 
+        private readonly TimeSpan timerInterval;
+
         public MainWindow()
         {
             InitializeComponent();
+            timerInterval = TimeSpan.FromSeconds(1);
+            var timer = new DispatcherTimer
+            {
+                Interval = timerInterval
+            };
+            
+            timer.Tick += Timer_Tick;
             caffe = new Caffe();
             visitorsQueue.ItemsSource = caffe.VisitorsQueue;
             tablesList.ItemsSource = caffe.Tables;
+            timer.Start();
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            foreach (var table in caffe.Tables)
+            {
+                if (table.TimeLeft.HasValue)
+                {
+                    table.TimeLeft = table.TimeLeft - timerInterval;
+                }
+            }
         }
 
         private void GenerateVisitorsProc()

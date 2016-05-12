@@ -17,7 +17,7 @@ namespace Kava._2
             Name = string.Format("{0}, {1}", App.GetRandomName(), App.RandomizerNext(18, 65));
         }
 
-        public string Name { get; }
+        public string Name { get; private set; }
 
         public void EnterTheCaffe()
         {
@@ -51,13 +51,14 @@ namespace Kava._2
                 caffe.VisitorsQueue.Dequeue();
             }
 
-            caffe.Tables[index].CurrentVisitor = this;
 
-            var interval = App.RandomizerNext(Constants.minCoffeeConsumptionTime, Constants.maxCoffeeConsumptionTime);
-            Thread.Sleep(TimeSpan.FromSeconds(interval));
+            var intervalSeconds = App.RandomizerNext(Constants.minCoffeeConsumptionTime, Constants.maxCoffeeConsumptionTime);
+            var interval = TimeSpan.FromSeconds(intervalSeconds);
+            caffe.Tables[index].EnterTable(this, interval);
 
-            caffe.Tables[index].CurrentVisitor = null;
-            caffe.Tables[index].ReleaseTable();
+            Thread.Sleep(interval);
+
+            caffe.Tables[index].ExitTable();
         }
     }
 }

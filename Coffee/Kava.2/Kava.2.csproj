@@ -58,6 +58,7 @@
     <Compile Include="Caffe.cs" />
     <Compile Include="ObservableQueue.cs" />
     <Compile Include="Table.cs" />
+    <Compile Include="TimespanToStringConverter.cs" />
     <Compile Include="ValueToVisibilityConverter.cs" />
     <Compile Include="Visitor.cs" />
     <Compile Include="Constants.cs" />

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Threading;
 
 namespace Kava._2
@@ -7,30 +8,45 @@ namespace Kava._2
     {
         private Visitor currentVisitor;
 
-        private readonly Mutex tableReleasEvent;
+        private TimeSpan? timeLeft;
+
+        private readonly Mutex tableReleasMutex;
 
         public Table(string name)
         {
             Name = name;
-            tableReleasEvent = new Mutex();
+            tableReleasMutex = new Mutex();
         }
 
         public WaitHandle TableHandle
         {
-            get { return tableReleasEvent; }
+            get { return tableReleasMutex; }
         }
 
         public string Name { get; }
 
+        public TimeSpan? TimeLeft
+        {
+            get { return timeLeft; }
+            set
+            {
+                if (timeLeft != value)
+                {
+                    timeLeft = value;
+                    OnPropertyChanged("TimeLeft");
+                }
+            }
+        }
+
         public Visitor CurrentVisitor
         {
             get { return currentVisitor; }
-            set
+            private set
             {
                 if (currentVisitor != value)
                 {
                     currentVisitor = value;
-                    OnPropertyChanged(nameof(CurrentVisitor));
+                    OnPropertyChanged("CurrentVisitor");
                 }
             }
         }
@@ -39,12 +55,23 @@ namespace Kava._2
 
         private void OnPropertyChanged(string propertyName)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
         }
 
-        public void ReleaseTable()
+        public void EnterTable(Visitor visitor, TimeSpan interval)
         {
-            tableReleasEvent.ReleaseMutex();
+            CurrentVisitor = visitor;
+            TimeLeft = interval;
+        }
+
+        public void ExitTable()
+        {
+            CurrentVisitor = null;
+            TimeLeft = null;
+            tableReleasMutex.ReleaseMutex();
         }
     }
 }
